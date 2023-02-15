@@ -10,7 +10,7 @@ export default function Index() {
     {
       id: 1,
       tittle: "React",
-      case: true
+      case: false
     },
     {
       id: 2,

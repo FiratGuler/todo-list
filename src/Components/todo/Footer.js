@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Footer({ list,setFilter }) {
 
 	
 
-	const filterChangce = (e) => {
+	const filterChange = (e) => {
 		setFilter(e)
 	}
 	
@@ -17,13 +17,13 @@ export default function Footer({ list,setFilter }) {
 
 			<ul className="filters">
 				<li>
-					<a href="#/" className="selected" onClick={() => filterChangce('All')}>All</a>
+					<a href="#/" className="selected" onClick={() => filterChange('All')}>All</a>
 				</li>
 				<li>
-					<a href="#/" onClick={() => filterChangce(false)}>Active</a>
+					<a href="#/" onClick={() => filterChange(false)}>Active</a>
 				</li>
 				<li>
-					<a href="#/" onClick={() => filterChangce(true)} >Completed</a>
+					<a href="#/" onClick={() => filterChange(true)} >Completed</a>
 				</li>
 			</ul>
 
