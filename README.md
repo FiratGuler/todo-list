@@ -1,4 +1,4 @@
-##BU PROJE PATİKA ORTA SEVİYE FRONTEND WEB DEVELOPMENT KURSUNUN ÖDEVİDİR
+BU PROJE PATİKA ORTA SEVİYE FRONTEND WEB DEVELOPMENT KURSUNUN ÖDEVİDİR
 
 
 Bu projede React kütüphanesi ile yapılcaklar listesi web sayfası kodlanmıştır.
